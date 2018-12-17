@@ -1,8 +1,9 @@
 {
     "name": "smartbro/laravel-voucher",
     "description": "Add voucher/s for laravel application",
-    "type": "Laravel Package",
     "require": {
+        "php": ">=7.0",
+        "laravel/framework": "5.6.*"
     },
     "authors": [
         {
