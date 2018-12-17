@@ -1,5 +1,5 @@
 {
-    "name": "Smarbro/laravel-voucher",
+    "name": "smartbro/laravel-voucher",
     "description": "Add voucher/s for laravel application",
     "type": "Laravel Package",
     "require": {
