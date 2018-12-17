@@ -1,0 +1,44 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "02180197a4e9ef97df2b5025ad544007",
+    "packages": [
+        {
+            "name": "alancole/vouchers",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/waxim/vouchers.git",
+                "reference": "0694d959222c5608738ff50aee4c3818badab1cc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/waxim/vouchers/zipball/0694d959222c5608738ff50aee4c3818badab1cc",
+                "reference": "0694d959222c5608738ff50aee4c3818badab1cc",
+                "shasum": ""
+            },
+            "type": "composer",
+            "autoload": {
+                "psr-4": {
+                    "Vouchers\\": "src/Vouchers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "A Simple PHP library for gernating and validating voucher codes.",
+            "time": "2017-01-31T11:20:15+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "alancole/vouchers": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

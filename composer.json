@@ -1,0 +1,30 @@
+{
+    "name": "vagrant/laravel-voucher",
+    "description": "Add voucher/s for laravel application",
+    "type": "Laravel Package",
+    "require": {
+    },
+    "authors": [
+        {
+            "name": "Justin Wang",
+            "email": "justinwang24@yahoo.com.au"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "SmartBro\\Voucher\\": "src/"
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+                "SmartBro\\Voucher\\VoucherServiceProvider"
+            ],
+            "aliases":{
+                "Voucher":"SmartBro\\Voucher\\VoucherFacade",
+                "Redeemer":"SmartBro\\Voucher\\RedeemerFacade"
+            }
+        }
+    }
+}
