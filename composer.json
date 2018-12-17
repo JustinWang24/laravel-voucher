@@ -1,5 +1,5 @@
 {
-    "name": "vagrant/laravel-voucher",
+    "name": "Smarbro/laravel-voucher",
     "description": "Add voucher/s for laravel application",
     "type": "Laravel Package",
     "require": {
