@@ -40,12 +40,10 @@ class VoucherServiceProvider extends ServiceProvider
         /**
          * 把Migration的文件发布到系统的migration目录中
          */
-        if(class_exists(\CreateVouchersTable::class)){
-            $timestamp = date('Y_m_d_His', time());
-            $this->publishes([
-                __DIR__.'/migrations/2018_12_17_040008_create_vouchers_table.php' => database_path('migrations/'.$timestamp.'_create_vouchers_table.php'),
-            ], 'migrations');
-        }
+        $timestamp = date('Y_m_d_His', time());
+        $this->publishes([
+            __DIR__.'/migrations/2018_12_17_040008_create_vouchers_table.php' => database_path('migrations/'.$timestamp.'_create_vouchers_table.php'),
+        ], 'migrations');
     }
 
     public function provides()
