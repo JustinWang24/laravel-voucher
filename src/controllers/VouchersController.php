@@ -14,5 +14,7 @@ use SmartBro\Voucher\models\Voucher;
 
 class VouchersController extends Controller
 {
+    public function index(Request $request){
 
+    }
 }
